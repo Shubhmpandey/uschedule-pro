@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js" type="module"></script>
     <link rel="stylesheet" href="./sass/style.css">
 </head>
 <body>
@@ -19,11 +19,14 @@
             <div class="current-status">
 
                 <div class="weekday">
-                    <h1>MONDAY</h1>
+                    <h1 class="current-weekday">MONDAY</h1>
                 </div>
                 <div class="time">
                     <div class="current-time">
-                        <h2>12:00PM</h2>
+                        <h2 class="current-hours">12</h2>
+                        <span>:</span>
+                        <h2 class="current-minutes">28</h2>
+                        <h2 class="ampm">PM</h2>
                     </div>
                     <div class="time-left">
                         <h2>23m left</h2>
